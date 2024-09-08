@@ -19,6 +19,10 @@
 		bootcmd = "mtkboardboot";
 		blink_led = "blue:system";
 		system_led = "green:system";
+
+		environment {
+			bootconf = "config-1#mt7981b-cmcc-rax3000m-nand";
+		};
 	};
 
 	gpio-keys {

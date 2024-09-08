@@ -19,6 +19,10 @@
 		bootcmd = "mtkboardboot";
 		blink_led = "green:mesh";
 		system_led = "green:mesh";
+
+		environment {
+			// bootargs = "root=/dev/fit0 rootwait";
+		};
 	};
 
 	gpio-keys {
